@@ -2,6 +2,10 @@
 #include <string>
 using namespace std;
 
+/*
+
+        CAMBI0
+ */
 class B{
 	 public:
 	 std::string pub ;
