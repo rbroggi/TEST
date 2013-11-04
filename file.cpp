@@ -6,6 +6,8 @@ using namespace std;
 
         CAMBI0
  */
+ 
+ //Propongo le seguenti modifiche:
 class B{
 	 public:
 	 std::string pub ;
@@ -44,6 +46,8 @@ class D: public B{
 int main() {
 	
 	D d;
+	
+	d.diff = "Penso di poter modificarlo. Ma forse ci sarà un modo di condividere un progetto";
 	
 	cout<<d.rpub();
 	cout<<d.rpri();
