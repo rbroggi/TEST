@@ -6,6 +6,8 @@ using namespace std;
 
         CAMBI0
  */
+ 
+ //Ora credo di essere riuscito a cambiarlo
 class B{
 	 public:
 	 std::string pub ;
@@ -44,6 +46,8 @@ class D: public B{
 int main() {
 	
 	D d;
+	
+	d.diff = "Do I have permission to write?";
 	
 	cout<<d.rpub();
 	cout<<d.rpri();
